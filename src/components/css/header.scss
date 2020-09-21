@@ -1,0 +1,58 @@
+@import "../../styles/assets.scss";
+
+.header
+{
+    color: white!important;
+    background-color: $main;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    @media screen and (max-width: $mobielWidth) {
+        padding: 10px;
+        text-align: center;
+        justify-content: space-between;
+    }
+    .logo
+    {
+        margin: 0;
+    }
+    .mobileMenuBtn
+    {
+        width: fit-content;
+        background: none;
+        color: white;
+        border: none;
+        svg
+        {
+            width: 30px;
+            height: 30px;
+        }
+    }
+    .header___username
+    {
+        @media screen and (max-width: $mobielWidth) {
+            display: none;
+        }
+    }
+    .logout
+    {
+        background-color: transparent;
+        border: none;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+        cursor: pointer;
+        color: $black;
+        padding: 15px 20px;
+        background-color: $white;
+        font-weight: 500;
+        @media screen and (max-width: $mobielWidth) {
+            display: none;
+        }
+    }
+    .logout:hover
+    {
+        color: black;
+    }
+}
