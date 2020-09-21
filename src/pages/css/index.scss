@@ -1,0 +1,63 @@
+@import "../../styles/assets.scss";
+.index
+{
+    .index___centerdiv
+    {
+        width: 320px;
+        margin: 0 auto;
+        padding: 30px;
+        border-radius: 10px;
+        margin-top: 25px;
+        .logo
+        {
+            margin-bottom: 20px;
+        }
+        .index___hr
+        {
+            border: solid 1px rgba(0, 0, 0, 0.144);
+            margin-bottom: 20px;
+        }
+        .index___p__fill
+        {
+            font-size: 13px;
+            margin-right: 10px;
+        }
+        .index___form
+        {
+            text-align: center;
+            margin-top: 15px;
+            label
+            {
+                text-align: left;
+                display: block;
+                font-size: 12px;
+                margin-top: 20px;
+                color: $darkgray;
+                margin-left: 10px;
+                margin-bottom: 5px;
+            }
+            .index___form___input
+            {
+                width: 100%;
+                &::placeholder
+                {
+                    color: $gray;
+                }
+            }
+            input[type="submit"]
+            {
+                border: none;
+                width: 80%;
+                margin-top: 20px;
+                padding: 15px;
+                background-color: $main;
+                color: $white;
+                cursor: pointer;
+                &:hover
+                {   
+                    background-color:$maindark;
+                }
+            }
+        }
+    }
+}
