@@ -1,15 +1,90 @@
 .customer
 {
-    padding: 20px;
+    padding: 50px;
     .customer___title
     {
         margin-top: 10px;
         margin-bottom: 5px;
     }
-    table
+    .search
     {
-        margin: auto;
-        margin-top: 50px;
-        width: 80%;
-    }    
+        margin-top: 20px;
+        margin: 0px auto;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        align-items: center;
+        width: 400px;
+        input
+        {
+            border-radius: 50px;
+            width: 400px;
+            border-color: rgb(48, 48, 48);
+        }
+        button
+        {
+            border-radius: 50%;
+            width: 33px;
+            height: 33px;
+            cursor: pointer;
+            background-color: $main;
+            border: none;
+            color: $white;
+            position: absolute;
+            right: 2px;
+        }
+    }
+    .datadetails
+    {
+        display: flex;
+        .right
+        {
+            margin-left: auto;
+            .sort
+            {
+                display: flex;
+                align-items: center;
+                p
+                {
+                    margin-right: 5px;
+                    display: flex;
+                    align-items: center;
+                    svg
+                    {
+                        font-size: 25px;
+                        margin-right: 5px;
+                    }
+                }
+                select
+                {
+                    padding: 5px 15px;
+                    border-color: $main;
+                    border-width: 2px;
+                }
+            }
+        }
+    }
+    .table
+    {
+        table
+        {
+            margin: auto;
+            margin-top: 50px;
+            width: 80%;
+            overflow: auto;
+            select
+            {
+                border: solid 1px black;
+                padding: 5px 15px;
+            }
+            .actions
+            {
+                justify-content: space-evenly;
+                p svg
+                {
+                    cursor: pointer;
+                }
+            }
+        }    
+    }
 }
