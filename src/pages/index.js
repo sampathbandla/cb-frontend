@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Alert from "../components/alert";
-import "./css/index.scss";
 var validator = require("email-validator");
 
 function Index() {

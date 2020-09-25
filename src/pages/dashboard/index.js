@@ -1,5 +1,4 @@
 import React from "react";
-import "./css/index.scss";
 import { BiSearchAlt } from "react-icons/bi";
 import { Doughnut, Bar, Line } from "react-chartjs-2";
 import Chart from "chart.js";

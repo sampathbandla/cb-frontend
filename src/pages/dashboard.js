@@ -3,7 +3,6 @@ import Index from "./dashboard/index";
 import Customer from "./dashboard/customer";
 import Header from "../components/header";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import "./css/dashboard.scss";
 import { AiOutlineRight } from "react-icons/ai";
 function Dashboard() {
 	return (

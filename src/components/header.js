@@ -1,7 +1,6 @@
 import React from "react";
 import { AiOutlineLogout } from "react-icons/ai";
 import { BiMenu } from "react-icons/bi";
-import "./css/header.scss";
 function Header() {
 	return (
 		<div className="header">
